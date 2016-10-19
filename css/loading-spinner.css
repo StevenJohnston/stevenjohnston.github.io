@@ -1,21 +1,21 @@
 
 .loading-spinner-container
 {
-  position: absolute;
+	position: absolute;
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
-  animation: hide-loading-spinner 5s linear infinite;
+	animation: hide-loading-spinner 5s linear infinite;
 }
 .loading-spinner-circle
 {
-  box-sizing: border-box;
+	box-sizing: border-box;
 	border-radius: 50%;
 	position: absolute;
 	border: 10px solid #337ab7;
 	width: 300px;
 	height: 300px;
-  clip: rect(0px, 150px, 300px, 0px);
+	clip: rect(0px, 150px, 300px, 0px);
 }
 .loading-spinner-circle[data-anim~=loading-spinner-left] {
 	animation: loading-spinner-left 5s linear infinite;
@@ -39,12 +39,14 @@
 	100% { transform: rotate(540deg); }
 }
 @-webkit-keyframes hide-loading-spinner {
-	0% { clip: rect(0px, 300px, 300px, 150px); }
+	0% { clip: rect(0px, 0px, 0px, 0px); }
+	1% { clip: rect(0px, 0px, 0px, 0px); }
+	1.001% { clip: rect(0px, 300px, 300px, 150px); }
 	24.9999%{clip: rect(0px, 300px, 300px, 150px);}
 	25% { clip: rect(auto, auto, auto, auto); }
 	74.9999% { clip: rect(auto, auto, auto, auto); }
 	75% { clip: rect(0px, 150px, 300px, 0px); }
-	99.9% { clip: rect(0px, 150px, 300px, 0px); }
-	99.999% { clip: rect(0px, 0px, 0px, 0px); }
+	99% { clip: rect(0px, 150px, 300px, 0px); }
+	99.001% { clip: rect(0px, 0px, 0px, 0px); }
 	100% { clip: rect(0px, 0px, 0px, 0px);  }
 }
