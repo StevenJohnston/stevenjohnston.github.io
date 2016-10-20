@@ -60,9 +60,8 @@
 }
 .loading-spinner-explain > div
 {
-	background-color: rgb(51, 122, 183); 
+	background-color: rgba(51, 122, 183, 0.44); 
      	border-radius: 50%; 
-     	opacity: .2; 
 }
 
 .loading-spinner-explain div[data-anim~=loading-spinner-left]
