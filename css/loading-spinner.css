@@ -56,3 +56,15 @@
 	99.001% { clip: rect(0px, 0px, 0px, 0px); }
 	100% { clip: rect(0px, 0px, 0px, 0px);  }
 }
+.loading-spinner-explain > div
+{
+	border: 10px dashed black;
+}
+.loading-spinner-explain div[data-anim~=loading-spinner-left]
+{
+	border: 10px dashed blue;
+}
+.loading-spinner-explain div[data-anim~=loading-spinner-right]
+{
+	border: 10px dashed red;
+}
