@@ -69,14 +69,14 @@
 	border: 10px dashed #334fb7;
 }
 .loading-spinner-circle[data-anim~=loading-spinner-left] > div{
-	animation: loading-spinner-left 5s linear infinite;
+	animation: loading-spinner-left-text 5s linear infinite;
 }
 .loading-spinner-explain div[data-anim~=loading-spinner-right]
 {
 	border: 10px dotted #337ab7;
 }
 .loading-spinner-circle[data-anim~=loading-spinner-right] > div{
-	animation: loading-spinner-right 5s linear infinite;
+	animation: loading-spinner-right-text 5s linear infinite;
 }
 .loading-spinner-circle > div
 {
@@ -92,16 +92,16 @@
 	justify-content: center;
 }
 @-webkit-keyframes loading-spinner-right-text {
-	0% { transform: rotate(0deg); }
-	25% { transform: rotate(180deg); }
-	50% { transform: rotate(180deg); }
-	75% { transform: rotate(360deg); }
-	100% { transform: rotate(540deg); }
+	0% { transform: rotate(-0deg); }
+	25% { transform: rotate(-180deg); }
+	50% { transform: rotate(-180deg); }
+	75% { transform: rotate(-360deg); }
+	100% { transform: rotate(-540deg); }
 }
 @-webkit-keyframes loading-spinner-left-text {
-	0% { transform: rotate(0deg); }
-	25% { transform: rotate(180deg); }
-	50% { transform: rotate(360deg); }
-	75% { transform: rotate(360deg); }
-	100% { transform: rotate(540deg); }
+	0% { transform: rotate(-0deg); }
+	25% { transform: rotate(-180deg); }
+	50% { transform: rotate(-360deg); }
+	75% { transform: rotate(-360deg); }
+	100% { transform: rotate(-540deg); }
 }
