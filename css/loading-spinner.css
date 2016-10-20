@@ -69,14 +69,16 @@
 	border: 10px dashed #334fb7;
 }
 .loading-spinner-circle[data-anim~=loading-spinner-left] > div{
-	animation: loading-spinner-left 5s -1.25s linear infinite;
+	animation: loading-spinner-left 5s linear infinite;
+	animation-direction:alternate-reverse;
 }
 .loading-spinner-explain div[data-anim~=loading-spinner-right]
 {
 	border: 10px dotted #337ab7;
 }
 .loading-spinner-circle[data-anim~=loading-spinner-right] > div{
-	animation: loading-spinner-right 5s -1.25s linear infinite;
+	animation: loading-spinner-right 5s linear infinite;
+	animation-direction:alternate-reverse;
 }
 .loading-spinner-circle > div
 {
