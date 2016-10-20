@@ -75,7 +75,7 @@
 }
 .loading-spinner-explain div[data-anim~=loading-spinner-right]
 {
-	border: 10px dashed #337ab7;
+	border: 10px dotted #337ab7;
 }
 .loading-spinner-circle > div
 {
