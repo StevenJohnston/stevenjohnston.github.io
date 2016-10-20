@@ -2,11 +2,13 @@
 {
 	width:100%;
 }
-.loading-spinner-area
+.loading-spinner-area,
+.loading-spinner-area div
 {
 	height:300px;
 	width:300px;
 }
+
 .loading-spinner-container
 {
 	position: absolute;
