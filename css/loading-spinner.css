@@ -58,7 +58,8 @@
 }
 .loading-spinner-explain > div
 {
-	border: 10px dashed black;
+	background-color:black;
+	opacity:0.5;
 }
 .loading-spinner-explain div[data-anim~=loading-spinner-left]
 {
