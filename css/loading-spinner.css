@@ -58,11 +58,11 @@
 	99.001% { clip: rect(0px, 0px, 0px, 0px); }
 	100% { clip: rect(0px, 0px, 0px, 0px);  }
 }
-.loading-spinner-explain
+.loading-spinner-explain > div
 {
-	background-color: rgb(51, 122, 183);
-	border-radius: 50%;
-	opacity:20%;
+	background-color: rgb(51, 122, 183); 
+     	border-radius: 50%; 
+     	opacity: .2; 
 }
 
 .loading-spinner-explain div[data-anim~=loading-spinner-left]
