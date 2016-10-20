@@ -64,11 +64,7 @@
 	border-radius: 50%;
 	opacity:20%;
 }
-.loading-spinner-explain > div
-{
-	background-color:black;
-	opacity:0.5;
-}
+
 .loading-spinner-explain div[data-anim~=loading-spinner-left]
 {
 	border: 10px dashed #334fb7;
