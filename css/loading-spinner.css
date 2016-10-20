@@ -14,6 +14,8 @@
 	position: absolute;
 	border-radius: 50%;
 	animation: hide-loading-spinner 5s linear infinite;
+	text-align: center;
+	display: flex;
 }
 .loading-spinner-circle
 {
@@ -56,6 +58,12 @@
 	99.001% { clip: rect(0px, 0px, 0px, 0px); }
 	100% { clip: rect(0px, 0px, 0px, 0px);  }
 }
+.loading-spinner-explain
+{
+	background-color: rgb(51, 122, 183);
+	border-radius: 50%;
+	opacity:20%;
+}
 .loading-spinner-explain > div
 {
 	background-color:black;
@@ -63,9 +71,21 @@
 }
 .loading-spinner-explain div[data-anim~=loading-spinner-left]
 {
-	border: 10px dashed blue;
+	border: 10px dashed #334fb7;
 }
 .loading-spinner-explain div[data-anim~=loading-spinner-right]
 {
-	border: 10px dashed red;
+	border: 10px dashed #337ab7;
+}
+.loading-spinner-circle > div
+{
+	display:flex;
+	align-items: center;
+}
+.loading-spinner-explain-text
+{
+	position: absolute;
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
