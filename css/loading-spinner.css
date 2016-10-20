@@ -68,17 +68,21 @@
 {
 	border: 10px dashed #334fb7;
 }
-.loading-spinner-circle[data-anim~=loading-spinner-right] > div{
-	animation: loading-spinner-right 5s linear infinite;
+.loading-spinner-circle[data-anim~=loading-spinner-left] > div{
+	animation: loading-spinner-left 5s -1.25 linear infinite;
 }
 .loading-spinner-explain div[data-anim~=loading-spinner-right]
 {
 	border: 10px dotted #337ab7;
 }
+.loading-spinner-circle[data-anim~=loading-spinner-right] > div{
+	animation: loading-spinner-right 5s -1.25 linear infinite;
+}
 .loading-spinner-circle > div
 {
 	display:flex;
 	align-items: center;
+	width:80px;
 }
 .loading-spinner-explain-text
 {
