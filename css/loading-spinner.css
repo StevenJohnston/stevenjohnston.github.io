@@ -105,3 +105,49 @@
 	75% { transform: rotate(-360deg); }
 	100% { transform: rotate(-540deg); }
 }
+
+
+/* logo */
+.logo{
+	width:200px;
+	height:200px;
+	background-color:#383838; 
+	position: relative; 
+	display: inline-block; 
+	margin-left: 100px; 
+	box-shadow: 1px 1px 1px;
+}
+.left-clip{
+	position:absolute;
+	left: 12px;
+	clip: rect(-44px, 82px, 244px, -44px);
+}
+.left-triangle{
+	width:190px; 
+	height:190px; 
+	background-color:#bbbbbb; 
+	box-shadow: 1px 1px 1px; 
+	display:inline-block;
+}
+.right-clip{
+	position:absolute;
+	top: 10px;
+	left: 2px;
+	clip: rect(-44px, 244px, 244px, 108px);
+}
+.right-triangle{
+	width:190px;
+	height:190px;
+	background-color:#636363;
+	/* box-shadow: 1px 1px 1px; */
+	display:inline-block;
+}
+.right-shadow{
+	height: 243px;
+	width: 1px;
+	box-shadow: 1px 1px 1px;
+	left: 103px;
+	top: -24px;
+	position: absolute;
+}
+/* /logo */
