@@ -108,6 +108,18 @@
 
 
 /* logo */
+
+.rotate{
+	-ms-transform: rotate(45deg); /* IE 9 */
+	-webkit-transform: rotate(45deg); /* Safari */
+	transform: rotate(45deg);
+}
+.counter-rotate{
+	-ms-transform: rotate(-45deg); /* IE 9 */
+	-webkit-transform: rotate(-45deg); /* Safari */
+	transform: rotate(-45deg);
+}
+
 .logo{
 	width:200px;
 	height:200px;
