@@ -1,3 +1,6 @@
+body > div{
+	display:inline-block;
+}
 .row
 {
 	width:100%;
@@ -127,7 +130,6 @@
 	background-color:#383838; 
 	position: relative; 
 	display: inline-block; 
-	margin-left: 100px; 
 	box-shadow: 1px 1px 1px;
 }
 .left-clip{
