@@ -165,4 +165,10 @@ body > div{
 	top: -24px;
 	position: absolute;
 }
+
+.spin{
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	transform: rotateY(180deg);
+}
 /* /logo */
