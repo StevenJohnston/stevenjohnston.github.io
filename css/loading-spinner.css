@@ -30,12 +30,10 @@ body > div{
 }
 .loading-spinner-circle[data-anim~=loading-spinner-left] {
 	animation: loading-spinner-left 5s linear infinite;
-	animation-delay: -9s; 
 }
 
 .loading-spinner-circle[data-anim~=loading-spinner-right] {
 	animation: loading-spinner-right 5s linear infinite;
-	animation-delay: -9s; 
 }
 @-webkit-keyframes loading-spinner-right {
 	0% { transform: rotate(0deg); }
@@ -75,7 +73,6 @@ body > div{
 }
 .loading-spinner-circle[data-anim~=loading-spinner-left] > div{
 	animation: loading-spinner-left-text 5s linear infinite;
-	animation-delay: -9s; 
 }
 .loading-spinner-explain div[data-anim~=loading-spinner-right]
 {
@@ -83,7 +80,6 @@ body > div{
 }
 .loading-spinner-circle[data-anim~=loading-spinner-right] > div{
 	animation: loading-spinner-right-text 5s linear infinite;
-	animation-delay: -9s; 
 }
 .loading-spinner-circle > div
 {
